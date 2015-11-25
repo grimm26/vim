@@ -20,16 +20,16 @@ Unlike most Vim configurations you find online, this one is _modular_: it's
 Branches
 
 * The **[master]** branch is a bare bones template for anyone to start with.
-[master]: https://github.com/sunaku/.vim/tree/master#readme
+[master]: https://github.com/meinconfig/.vim/tree/master#readme
 
 * The **[config]** branch adds my personal configuration of the standard Vim.
-[config]: https://github.com/sunaku/.vim/tree/config#readme
+[config]: https://github.com/meinconfig/.vim/tree/config#readme
 
 * The **[bundle]** branch adds my chosen bundles and my configuration thereof.
-[bundle]: https://github.com/sunaku/.vim/tree/bundle#readme
+[bundle]: https://github.com/meinconfig/.vim/tree/bundle#readme
 
 * The **[spacey]** branch adds an enhanced Space leader key, like [Spacemacs].
-[spacey]: https://github.com/sunaku/.vim/tree/spacey#readme
+[spacey]: https://github.com/meinconfig/.vim/tree/spacey#readme
 [Spacemacs]: https://github.com/syl20bnr/spacemacs#readme
 
 Bundles
@@ -67,7 +67,7 @@ Configuration
 
   in all commands listed throughout this document.
 
-[Unbundle]: https://github.com/sunaku/vim-unbundle#readme
+[Unbundle]: https://github.com/meinconfig/vim-unbundle#readme
 
 ## Installing
 
@@ -78,7 +78,7 @@ Backup your configuration:
 
 Install this configuration:
 
-    git clone https://github.com/sunaku/.vim.git ~/.vim
+    git clone https://github.com/meinconfig/.vim.git ~/.vim
     ln -s ~/.vim ~/.config/nvim  # for NeoVim
     cd ~/.vim
 
