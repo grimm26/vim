@@ -14,3 +14,6 @@ let g:limelight_conceal_ctermfg = 241
 
 " improve unite.vim search candidate highlighting
 highlight link uniteCandidateInputKeyword MoreMsg
+
+hi Normal ctermbg=none
+hi NonText ctermbg=none
