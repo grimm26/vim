@@ -1,3 +1,6 @@
+" share yanks across the terminals
+set clipboard=unnamed,unnamedplus
+
 " be consistent with C and D which reach the end of line
 nnoremap Y y$
 
