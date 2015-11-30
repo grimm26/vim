@@ -60,7 +60,7 @@ EOF
 fi
 
 # drop changes that rebased without conflict but were removed upstream
-env GIT_SEQUENCE_EDITOR="sed -i '/^# pick.*fixup!/s/^# //; 2,\${$(
+env GIT_SEQUENCE_EDITOR="sed -i -e '/^# pick.*fixup!/s/^# //; 2,\${$(
   git log --format='/ [[:xdigit:]]\{7\} %s$/d' $target | tr '\n' ';'
 )}'" git rebase --interactive $target~
 
