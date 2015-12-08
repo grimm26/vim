@@ -1,5 +1,5 @@
 " set split-pane height for vimux
-let g:VimuxRunnerType = "window"
+let g:VimuxRunnerType = "pane"
 let g:VimuxUseNearest = 1
 
 " key mappings
